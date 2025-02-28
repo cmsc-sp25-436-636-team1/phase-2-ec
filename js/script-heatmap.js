@@ -1,6 +1,6 @@
 //https://d3-graph-gallery.com/graph/heatmap_tooltip.html
 // Set the dimensions and margins of the graph
-const margin = { top: 30, right: 30, bottom: 80, left: 150 },
+const margin = { top: 30, right: 30, bottom: 150, left: 180 },
   width = 450 - margin.left - margin.right,
   height = 450 - margin.top - margin.bottom;
 
@@ -37,8 +37,27 @@ d3.csv("../data/heatmap_data.csv").then((data) => {
     .attr("transform", "rotate(-45)")
     .style("text-anchor", "end");
 
+  svg
+    .append("text")
+    .attr("x", width / 2)
+    .attr("y", height + margin.bottom - 50)
+    .style("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "bold")
+    .text("Browsing Frequency");
+
   // Add Y axis
   svg.append("g").call(d3.axisLeft(y));
+
+  svg
+    .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", -margin.left + 50)
+    .style("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "bold")
+    .text("Purchase Frequency");
 
   // Create a tooltip
   const tooltip = d3

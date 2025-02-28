@@ -14,24 +14,26 @@
 </head>
 
 <body class="m-2">
-    <div class="container-lg my-5">
-        <h1 class="text-center mb-4">Online Shopping Trends & Consumer Behavior</h1>
+    <div class="container-xl my-5">
         <div class="row g-5">
             <div class="col-md-3">
                 <div class="position-sticky" style="top: 2rem;">
-                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                    <div class="p-4 mb-3 rounded">
                         <h4 class="fst-italic">About</h4>
-                        <p class="mb-0">Analyzing Amazon consumer Behaviour Dataset</p>
+                        <p class="mb-0">Analyzing Amazon consumer Behaviour</p>
                     </div>
 
                     <div class="p-4">
                         <h4 class="fst-italic">Analysis</h4>
                         <ol class="list-unstyled mb-0">
-                            <li><a href="/phase-2-ec/">Homepage</a></li>
+                            <!-- Public -->
+                            <li><a href="/phase-2-ec/">Project Descriptions</a></li>
                             <li><a href="/phase-2-ec/visualizations/age-dist.html">Age Distribution</a></li>
-                            <li><a href="/phase-2-ec/visualizations/heatmap.html">Heatmap</a></li>
-                            <li><a href="#">Bublemap</a></li>
-                            <li><a href="#">Scatterplot</a></li>
+                            <li><a href="/phase-2-ec/visualizations/browse-vs-purchase.html">Browsing/Purchase</a></li>
+                            <!-- Local -->
+                            <!-- <li><a href="/">Project Descriptions</a></li>
+                            <li><a href="/visualizations/age-dist.html">Age Distribution</a></li>
+                            <li><a href="/visualizations/browse-vs-purchase.html">Browsing/Purchase</a></li> -->
                         </ol>
                     </div>
 
@@ -44,6 +46,12 @@
                 </div>
             </div>
             <div class="col-md-9">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    Online Shopping Trends & Consumer Behavior
+                </h3>
+                <h2 class="display-5 link-body-emphasis mb-1">Browsing vs Purchase Frequency</h2>
+                <h2>Heat Map</h2>
+                <p>Map the correlation between browsing and purchase frequency. Hover to see value</p>
                 <div id="heat-map"></div>
             </div>
         </div>
