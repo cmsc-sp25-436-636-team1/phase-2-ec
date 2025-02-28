@@ -1,0 +1,21 @@
+Purchase_Frequency,Browse_Frequency,Value
+Few times a month,Few times a month,71
+Less than once a month,Few times a month,41
+Multiple times a week,Few times a month,9
+Once a month,Few times a month,41
+Once a week,Few times a month,37
+Few times a month,Few times a week,96
+Less than once a month,Few times a week,27
+Multiple times a week,Few times a week,29
+Once a month,Few times a week,44
+Once a week,Few times a week,53
+Few times a month,Multiple times a day,25
+Less than once a month,Multiple times a day,6
+Multiple times a week,Multiple times a day,16
+Once a month,Multiple times a day,12
+Once a week,Multiple times a day,18
+Few times a month,Rarely,11
+Less than once a month,Rarely,50
+Multiple times a week,Rarely,2
+Once a month,Rarely,10
+Once a week,Rarely,4

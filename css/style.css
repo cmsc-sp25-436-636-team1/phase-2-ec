@@ -3,26 +3,23 @@ body {
     margin: 20px;
 }
 
-#chart {
-    margin-top: 20px;
-}
-
-.bar {
-    fill: steelblue;
-}
-
-.bar:hover {
-    fill: orange;
-}
-
-.axis--x path {
-    display: none;
-}
-
-
-#pie-chart {
+.bento-item {
+    height: 200px;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.bento-item:hover {
+    transform: scale(1.05);
+}
+
+.bento-tall {
+    height: 466px;
+}
+
+.bento-med {
+    height: 250px;
 }
